@@ -1,0 +1,18 @@
+:root{
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#navigation{
+    background-color: yellow;
+}
+
+footer{
+    color: white;
+    background-color: black;
+}
