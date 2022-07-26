@@ -1,0 +1,1 @@
+console.log("Simple log from index.js");
