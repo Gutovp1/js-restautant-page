@@ -1,3 +1,6 @@
 export default function contactTab(){
-    console.log('You can contact us below');
+    const container = document.getElementById('content');
+    container.textContent = "";
+    return;
+
 }

@@ -1,7 +1,7 @@
 html{
     display: flex;
     flex-direction: row;
-    background-color: red;
+    background-color: orange;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,6 +24,14 @@ button{
     font-weight: bold;
     min-width: 8rem;
     min-height: 3rem;
+}
+
+button:hover{
+    background-color: orangered;
+}
+
+button:focus{
+    background-color: goldenrod;
 }
 
 /* #navigation{
