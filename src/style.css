@@ -6,16 +6,32 @@ html{
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: 0;
+    padding: 0;
     /* background: url('./frango-quiabo.jpg'); */
 }
 
+#content{
+    gap: 15px;
+}
 
+button{
+    margin: 10px;
+    border: none;
+    background-color: yellow;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 8rem;
+    min-height: 3rem;
+}
 
-#navigation{
+/* #navigation{
     background-color: yellow;
 }
 
 footer{
     color: white;
     background-color: black;
-}
+} */
+

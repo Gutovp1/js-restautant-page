@@ -1,16 +1,22 @@
 import './style.css';
-import mealImg from './frango-quiabo.jpg';
+import homeTab from './home.js';
+import menuTab from './menu.js';
+import contactTab from './contact.js';
 
-function includeImage(){
-    const element = document.createElement('div');
+const btnHome = document.createElement('button');
+const btnMenu = document.createElement('button');
+const btnContact = document.createElement('button');
+const divContent = document.getElementById('content');
 
-    const MyImage = new Image();
-    MyImage.src = mealImg;
-    element.appendChild(MyImage);
+btnHome.onclick = homeTab;
+btnHome.textContent = 'HOME';
+btnMenu.onclick = menuTab;
+btnMenu.textContent = 'MENU';
+btnContact.onclick = contactTab;
+btnContact.textContent = 'CONTACT';
 
-    return element;
-}
-
-document.getElementById('content').appendChild(includeImage());
+divContent.appendChild(btnHome);
+divContent.appendChild(btnMenu);
+divContent.appendChild(btnContact);
 
 console.log("Simple log from index.js");
