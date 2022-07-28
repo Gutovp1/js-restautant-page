@@ -3,12 +3,11 @@ import mealImg from './frango-quiabo.jpg';
 export default function homeTab(){
         const container = document.getElementById('content');
         container.textContent = "";
-        const element = document.createElement('div');
+        
+        const homeTitle = document.createElement('h1');
+        homeTitle.textContent = "Get to know the mineira cuisine in Shiriu's restaurant.";    
     
-        const MyImage = new Image();
-        MyImage.src = mealImg;
-        element.appendChild(MyImage);
-        container.appendChild(element);
-    
+        container.appendChild(homeTitle);
+
         return;
 }

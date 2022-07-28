@@ -13,9 +13,12 @@ html{
 
 #content{
     gap: 15px;
+    background-color: #fff;
+    min-width: 90vw;
+    min-height: 85vh;
 }
 
-button{
+.tab{
     margin: 10px;
     border: none;
     background-color: yellow;
@@ -26,14 +29,35 @@ button{
     min-height: 3rem;
 }
 
-button:hover{
+.tab:hover{
     background-color: orangered;
 }
 
-button:focus{
+.tab:focus{
     background-color: goldenrod;
 }
 
+form{
+    display: grid;
+    grid-template-columns: 5rem 20rem 5rem;
+    gap: 10px;
+    font-size: 20px;
+    justify-content: center;
+}
+
+form label{
+    grid-column: 1;
+    text-align: end;
+}
+
+form input, textarea, button{
+    grid-column: 2 / 3;
+    font-size: 20px;
+}
+
+form textarea{
+    height: 20rem;
+}
 /* #navigation{
     background-color: yellow;
 }
