@@ -3,7 +3,7 @@ import homeImg from './restaurant.jpg';
 export default function homeTab(){
         const container = document.getElementById('content');
         container.textContent = "";
-        
+
         const homeTitle = document.createElement('h1');
         homeTitle.classList.add('title');
         homeTitle.textContent = "Shiriu's mineiro restaurant";    
