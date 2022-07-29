@@ -20,6 +20,10 @@ html{
     min-height: 85vh;
     max-height: 85vh;
     border: 10px solid rgb(9, 48, 94);
+    display: grid;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: space-evenly;
 }
 
 .tab{
@@ -56,6 +60,28 @@ html{
     padding-top: 10px;
     text-shadow: 1px 1px 3px black;
     color: goldenrod;
+}
+
+img{
+    box-shadow: 2px 2px 5px black;
+    margin: 0;
+}
+
+/* page titles */
+/* h1{
+    margin-bottom: 0;
+    padding-bottom: 0;
+} */
+
+/* home tab description */
+h3{
+    margin-top: 0;
+    padding-top: 0;
+}
+
+/* menu tab description */
+h4{
+    margin: 10px 0;
 }
 
 form{
