@@ -12,6 +12,7 @@ export default function contactTab(){
     const textArea = document.createElement('textarea');
     const btnForm = document.createElement('button');
 
+    formTitle.classList.add('title');
     formTitle.textContent = "Contact us";
     contactForm.setAttribute('action','#');
     contactForm.setAttribute('method', 'post');
